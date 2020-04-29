@@ -30,4 +30,6 @@ node lh.js --url http://subhra.me/
 ## References
 Script is written based on the below article.
 
+https://github.com/GoogleChrome/lighthouse/blob/master/docs/readme.md#using-programmatically
+
 https://css-tricks.com/build-a-node-js-tool-to-record-and-compare-google-lighthouse-reports/
