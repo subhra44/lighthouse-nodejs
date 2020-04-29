@@ -23,3 +23,7 @@ node lh.js --url http://subhra.me/
 ### How to view the report
 Go to https://googlechrome.github.io/lighthouse/viewer/
 Upload the generated JSON file
+
+## References
+Script is written based on the below article.
+https://css-tricks.com/build-a-node-js-tool-to-record-and-compare-google-lighthouse-reports/
