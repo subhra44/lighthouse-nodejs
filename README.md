@@ -6,7 +6,7 @@ This will generate the lighthouse JSON report for specified URL and store it in 
 ## How to use
 
 ## Pre-requisites
-Node.js: v10 or above
+* Node.js: v10 or above
 
 ### Clone the repo
 ```
