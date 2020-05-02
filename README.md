@@ -5,6 +5,9 @@ This will generate the lighthouse JSON report for specified URL and store it in 
 
 ## How to use
 
+## Pre-requisites
+* Node.js: v10 or above
+
 ### Clone the repo
 ```
 git clone https://github.com/subhra44/lighthouse-nodejs.git
@@ -26,5 +29,12 @@ node lh.js --from reports/subhra.me/2020-04-29T17_35_22.373Z --to reports/subhra
 ```
 
 ### How to view the report
-Go to https://googlechrome.github.io/lighthouse/viewer/
-Upload the generated JSON file
+1. Go to https://googlechrome.github.io/lighthouse/viewer/
+2. Upload the generated JSON file
+
+## References
+Script is written based on the below article.
+
+https://github.com/GoogleChrome/lighthouse/blob/master/docs/readme.md#using-programmatically
+
+https://css-tricks.com/build-a-node-js-tool-to-record-and-compare-google-lighthouse-reports/
