@@ -15,9 +15,14 @@ git clone https://github.com/subhra44/lighthouse-nodejs.git
 npm install
 ```
 
-### Run below command to generate the report
+### Run below command to generate the report and compare with the previous report (if exists)
 ```
 node lh.js --url http://subhra.me/
+```
+
+### Run below command to compare two different reports
+```
+node lh.js --from reports/subhra.me/2020-04-29T17_35_22.373Z --to reports/subhra.me/2020-05-01T17_09_11.665Z
 ```
 
 ### How to view the report
